@@ -1,0 +1,62 @@
+aid: cubesmart
+url: https://github.com/api-evangelist/cubesmart
+name: CubeSmart
+type: Index
+image: https://www.cubesmart.com/favicon.ico
+tags:
+  - Self Storage
+  - Real Estate
+  - REIT
+  - Storage
+  - Third-Party Management
+description: CubeSmart (NYSE CUBE) is a self-administered and self-managed real estate investment trust (REIT) and the third-largest owner and operator of self-storage properties in the United States. As of December 31, 2024 the company owns 631 self-storage properties across 25 states and Washington DC, containing approximately 45.8 million rentable square feet, and operates a third-party management platform that pushes the total managed network well past 1,300 properties. Headquartered in Malvern, Pennsylvania, CubeSmart originated as U-Store-It Trust (founded July 2004, IPO October 2004) and rebranded to CubeSmart on September 14, 2011. The company is a component of the S&P 400. CubeSmart does not publish a public developer API, OpenAPI specification, SDK, or developer portal — its public technology footprint is limited to the consumer cubesmart.com booking/account site and the CubeSmart mobile apps for iOS and Android.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://www.cubesmart.com
+  - type: AboutUs
+    url: https://www.cubesmart.com/about-us
+  - type: InvestorRelations
+    url: https://investors.cubesmart.com/
+  - type: Locations
+    url: https://www.cubesmart.com/self-storage-locations.html
+  - type: Blog
+    url: https://www.cubesmart.com/blog/
+  - type: BlogRSS
+    url: https://www.cubesmart.com/blog/feed/
+  - type: Careers
+    url: https://careers.cubesmart.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cubesmart
+  - type: Twitter
+    url: https://twitter.com/CubeSmart
+  - type: Facebook
+    url: https://www.facebook.com/CubeSmart
+  - type: GitHub
+    url: https://github.com/cubesmart
+  - type: MobileAppIOS
+    url: https://apps.apple.com/us/app/cubesmart/id1041206894
+  - type: MobileAppAndroid
+    url: https://play.google.com/store/apps/details?id=com.cubesmart.android
+  - type: ThirdPartyManagement
+    url: https://www.cubesmart.com/self-storage-management.html
+  - type: CustomerService
+    url: https://www.cubesmart.com/customer-service.html
+  - type: ContactUs
+    url: https://www.cubesmart.com/contact-us.html
+  - type: PrivacyPolicy
+    url: https://www.cubesmart.com/privacy-policy.html
+  - type: TermsOfService
+    url: https://www.cubesmart.com/terms-of-service.html
+  - type: AccessibilityStatement
+    url: https://www.cubesmart.com/accessibility.html
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/CubeSmart
+overlays:
+  - type: APO-Org
+    url: overlays/cubesmart-organization.yml
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com

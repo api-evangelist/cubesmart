@@ -1,0 +1,104 @@
+overlay: 1.0.0
+info:
+  title: CubeSmart Organization Overlay
+  version: 0.1.0
+  description: |
+    Organization profile for CubeSmart (NYSE: CUBE), the third-largest US
+    self-storage REIT. Captures corporate structure, scale metrics, leadership,
+    portfolio composition, and third-party management platform.
+extends: ../apis.yml
+actions:
+  - target: $
+    update:
+      organization:
+        legalName: CubeSmart
+        operatingPartnership: CubeSmart, L.P.
+        formerName: U-Store-It Trust
+        rebrandDate: '2011-09-14'
+        founded: '2004-07'
+        ipoDate: '2004-10'
+        ticker:
+          exchange: NYSE
+          symbol: CUBE
+        index: S&P MidCap 400
+        entityType: Self-Administered Self-Managed REIT
+        sector: Real Estate
+        industry: Self-Storage
+        headquarters:
+          city: Malvern
+          region: Pennsylvania
+          country: United States
+          since: '2008-12'
+        leadership:
+          - name: Christopher P. Marr
+            role: President and CEO
+          - name: Timothy M. Martin
+            role: Chief Financial Officer
+          - name: Joel Keaton
+            role: Chief Operating Officer
+      portfolio:
+        ownedProperties: 631
+        ownedPropertiesAsOf: '2024-12-31'
+        ownedStates: 25
+        ownedRentableSquareFeet: 45800000
+        totalManagedNetwork: '1300+'
+        managementPlatformLaunch: '2010s'
+        notableAcquisitions:
+          - name: Storage West
+            year: 2021
+            value: '$1.7B'
+            description: Significantly expanded portfolio in Western US markets.
+      financials:
+        revenueLatestReported: '$1.009B (FY2022)'
+        netIncomeLatestReported: '$291M (FY2022)'
+        totalAssetsLatestReported: '$6.325B (FY2022)'
+        totalEquityLatestReported: '$2.840B (FY2022)'
+      businessSegments:
+        - Self Storage Rental
+        - Climate-Controlled Storage
+        - Vehicle & RV Storage
+        - Boat Storage
+        - Business Storage
+        - Moving Storage
+        - Third-Party Management
+        - Truck Rental Partner Channel
+      thirdPartyManagement:
+        offering: |
+          CubeSmart provides operations, marketing, revenue management,
+          accounting, HR, training, and business-intelligence services to
+          third-party self-storage owners through a single relationship
+          manager assigned per property.
+        services:
+          - Marketing and Revenue Optimization
+          - Sales Center Operations
+          - Business Intelligence and Analytics
+          - Store Operations Management
+          - Facility Services
+          - Communications and Reporting
+          - HR and Training
+          - Accounting and Finance
+        positioning: We treat your property like our own.
+        platformMilestone: Exceeded 200 managed stores by 2015.
+      technologyFootprint:
+        publicAPI: false
+        developerPortal: false
+        openAPISpecification: false
+        sdks: []
+        mobileApps:
+          - platform: iOS
+            url: https://apps.apple.com/us/app/cubesmart/id1041206894
+          - platform: Android
+            url: https://play.google.com/store/apps/details?id=com.cubesmart.android
+        githubOrg:
+          handle: cubesmart
+          publicRepos: 0
+          status: Placeholder organization with no public repositories.
+      verbatim:
+        positioning: We are the third largest owner and operator of self-storage properties with over 1,500 self-storage properties across the United States.
+        mission: We're passionate about serving our customers and committed to making your self-storage experience the best it can be. We strive to help you have peace of mind, which means we'll take care of the details.
+      notableAbsences:
+        - No public REST or GraphQL API for booking, inventory, or rates.
+        - No developer portal, OpenAPI specification, or published SDK.
+        - No public webhooks, status page, or changelog for partners.
+        - No public technology blog or engineering-team presence.
+        - GitHub organization exists but is empty (0 public repositories).
