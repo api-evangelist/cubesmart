@@ -42,7 +42,7 @@ common:
     url: https://play.google.com/store/apps/details?id=com.cubesmart.android
   - type: ThirdPartyManagement
     url: https://www.cubesmart.com/self-storage-management.html
-  - type: CustomerService
+  - type: Support
     url: https://www.cubesmart.com/customer-service.html
   - type: ContactUs
     url: https://www.cubesmart.com/contact-us.html
