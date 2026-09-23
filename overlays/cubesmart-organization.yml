@@ -2,7 +2,7 @@ overlay: 1.0.0
 info:
   title: CubeSmart Organization Overlay
   version: 0.1.0
-  description: |
+  x-description: |
     Organization profile for CubeSmart (NYSE: CUBE), the third-largest US
     self-storage REIT. Captures corporate structure, scale metrics, leadership,
     portfolio composition, and third-party management platform.
