@@ -1,4 +1,4 @@
-# cubesmart
+# CubeSmart
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,34 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for **CubeSmart** (NYSE: CUBE) in the API Evangelist network.
+CubeSmart (NYSE CUBE) is a self-administered and self-managed real estate investment trust (REIT) and the third-largest owner and operator of self-storage properties in the United States. As of December 31, 2024 the company owns 631 self-storage properties across 25 states and Washington DC, containing approximately 45.8 million rentable square feet, and operates a third-party management platform that pushes the total managed network well past 1,300 properties. Headquartered in Malvern, Pennsylvania, CubeSmart originated as U-Store-It Trust (founded July 2004, IPO October 2004) and rebranded to CubeSmart on September 14, 2011. The company is a component of the S&P 400. CubeSmart does not publish a public developer API, OpenAPI specification, SDK, or developer portal — its public technology footprint is limited to the consumer cubesmart.com booking/account site and the CubeSmart mobile apps for iOS and Android.
 
-CubeSmart is a self-administered and self-managed real estate investment trust (REIT) and the **third-largest owner and operator of self-storage properties in the United States**. As of December 31, 2024 the company owns **631 self-storage properties** across **25 states and Washington, D.C.**, containing approximately **45.8 million rentable square feet**. A third-party management platform pushes the total managed network past **1,300 properties**.
+**Areas:** Self Storage · Real Estate · REIT · Storage · Third-Party Management
 
-- **HQ**: Malvern, Pennsylvania (since December 2008)
-- **Founded**: July 2004 as U-Store-It Trust; rebranded to CubeSmart on September 14, 2011
-- **Index**: S&P MidCap 400
-- **Leadership**: Christopher P. Marr (CEO), Timothy M. Martin (CFO), Joel Keaton (COO)
+## CubeSmart on APIs.io
 
-## Artifacts
+Everything profiled for CubeSmart is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cubesmart/](https://apis.io/providers/cubesmart/)** — or go straight to one of the APIs or properties below.
 
-- [`apis.yml`](./apis.yml) — Index entry with website, investor relations, mobile apps, third-party management, blog, careers, GitHub, and social common properties.
-- [`overlays/cubesmart-organization.yml`](./overlays/cubesmart-organization.yml) — Organization overlay capturing corporate structure, portfolio scale, leadership, third-party management platform, financials, and the notable absence of any public API surface.
+### Published properties
 
-## Technology footprint
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-CubeSmart **does not publish a public developer API, OpenAPI specification, SDK, webhooks, status page, changelog, or developer portal**. Its public technology footprint is limited to:
+#### Overlays (1)
 
-- The consumer-facing booking and account site at [cubesmart.com](https://www.cubesmart.com)
-- CubeSmart mobile apps for [iOS](https://apps.apple.com/us/app/cubesmart/id1041206894) and [Android](https://play.google.com/store/apps/details?id=com.cubesmart.android)
-- A placeholder GitHub organization at [github.com/cubesmart](https://github.com/cubesmart) with **0 public repositories**
+OpenAPI overlays, including conversational phrasing for each operation.
 
-Third-party management partners interact with CubeSmart through assigned relationship managers and internal systems rather than public APIs.
+- [Cubesmart Organization](https://apis.io/overlays/cubesmart/cubesmart-organization/)
 
-## Business segments
+#### Security (1)
 
-Self Storage Rental · Climate-Controlled Storage · Vehicle & RV Storage · Boat Storage · Business Storage · Moving Storage · Third-Party Management
+Authentication, trust centre, and vulnerability disclosure.
 
----
+- [Cubesmart Domain Security](https://apis.io/security/cubesmart/cubesmart-domain-security/)
 
-Maintained by [API Evangelist](https://apievangelist.com).
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cubesmart.com)
+- [Support](https://www.cubesmart.com/customer-service.html)
+- [Blog](https://www.cubesmart.com/blog/)
+- [Terms of service](https://www.cubesmart.com/terms-of-service.html)
+- [Privacy policy](https://www.cubesmart.com/privacy-policy.html)
+
+## API Evangelist rating
+
+**Kin Score 4.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 42.9 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cubesmart/](https://apis.io/providers/cubesmart/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CubeSmart: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cubesmart/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
